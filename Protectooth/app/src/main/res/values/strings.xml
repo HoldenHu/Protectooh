@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ProtectTooth</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="pull_to_refresh_refreshing_label">加载中&#8230;</string>
+    <string name="pull_to_refresh_release_label">松开可以刷新</string>
+    <string name="pull_to_refresh_pull_label">下拉可以刷新</string>
+    <string name="back">返回</string>
+    <string name="example_solution">\u3000\u3000\u3000牙本质过敏症如因契状缺损造成，要及时补上患牙。小而深的敏感点，可作充填。如果是因为磨耗造成的，则应进行脱敏治疗，在牙敏感区涂擦可以封闭牙本质小管的脱敏剂，使用脱敏牙膏可以减轻症状。对多个牙敏感，尤其位于牙颈部，可考虑用激光或直流电离子导入法脱敏。对较严重的损脱敏无效的疼痛患牙，可酌情做牙髓资料。</string>>
+</resources>

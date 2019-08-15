@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:widget="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeedf0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@color/deep_dark_blue" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="16"
+        android:background="@color/deep_dark_blue"
+        android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="300dp"
+                android:orientation="vertical"
+                android:weightSum="16"
+                android:background="@color/deep_dark_blue"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="8dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:text="口腔卫士" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="-5dp"
+                    android:layout_marginLeft="144dp"
+                    android:textColor="@color/white"
+                    android:text="@string/app_name" />
+            </LinearLayout>
+            <!--标题-->
+
+        <TextView
+            android:id="@+id/btn_confirm"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="17dp"
+            android:gravity="right"
+            android:textColor="@color/colorPrimary"
+            android:text="完成" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:weightSum="16"
+        android:background="@color/white"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="1dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="10dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/logo_circle"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginBottom="35dp"
+            android:textColor="@color/colorPrimary"
+            android:text="上传成功" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:weightSum="16"
+        android:gravity="bottom"
+        android:layout_height="wrap_content">
+
+        <com.scu.holden.protectooth.component.PaperButton
+            android:id="@+id/bt_look_result"
+            widget:paper_corner_radius="19dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            widget:paper_text="查看结果"
+            widget:paper_text_size="15sp"
+            widget:paper_color="@color/alipay_blue"
+            widget:paper_text_color="@color/white"
+            />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:padding="1dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_marginTop="220dp"
+            android:layout_marginBottom="10dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/logo_seal"/>
+
+    </LinearLayout>
+
+</LinearLayout>

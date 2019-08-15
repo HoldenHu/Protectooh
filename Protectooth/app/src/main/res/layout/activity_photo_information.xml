@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:background="#eeedf0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@color/colorPrimary" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="16"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="图片详情" />
+
+    </LinearLayout>
+<!--标题-->
+
+
+    <LinearLayout
+        android:id="@+id/personal_information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/background_light" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="1"
+            android:background="@android:color/background_light"
+            android:orientation="horizontal"
+            >
+        <TextView
+            android:layout_marginTop="13dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:text="口腔信息"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+            <TextView
+                android:layout_marginTop="13dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+
+                android:layout_marginLeft="220dp"
+                android:layout_alignParentTop="true"
+                android:gravity="center_vertical"
+                android:text="更多>"
+                android:textColor="@color/gray_btn_bg_color"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="1"
+            android:background="@android:color/background_light"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:id="@+id/tooth_photo"
+                android:layout_gravity="center_vertical"
+                android:layout_width="160dp"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:layout_marginLeft="16dp"
+                android:background="@drawable/bg_rounded_rectangle" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_alignParentBottom="true"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_marginTop="13dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="拍摄于2017年5月5日"
+                    android:textColor="@color/main_text_selector"
+                    android:textSize="13sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="拥有症状："
+                    android:textColor="@color/main_text_selector"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="牙龈出血；牙齿敏感"
+                    android:textColor="@color/main_text_selector"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:text="牙齿松动；口腔异味"
+                    android:textColor="@color/main_text_selector"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="0dp"
+                android:gravity="center"
+                android:layout_weight="3">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    android:layout_marginRight="0dp"
+                    android:src="@drawable/fowardgrey"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+<!--图片栏-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/background_light" >
+
+        <TextView
+            android:layout_marginTop="13dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:text="医生评论"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:id="@+id/health_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="1"
+            android:background="@android:color/background_light"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:id="@+id/docotor_head"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="16dp"
+                android:src="@drawable/lubin"
+                android:background="@drawable/bg_rounded_rectangle"/>
+            <!--左边一侧即头像-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="2dp"
+                android:background="@android:color/background_light" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:gravity="center_vertical"
+                        android:text="陆斌"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"/>
+                    <TextView
+                        android:layout_marginLeft="8dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="口腔颌面科 副主任医师"
+                        android:textColor="@color/main_text_selector"
+                        android:textSize="13sp"/>
+                </LinearLayout>
+                <!--医生介绍第一行-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="中国人民解放军第四军医大学口腔医院"
+                        android:textColor="@color/main_text_selector"
+                        android:textSize="13sp"/>
+
+                    <TextView
+                        android:layout_marginLeft="8dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:gravity="center_vertical"
+                        android:text="顶级医院"
+                        android:textColor="@color/yellow"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+                <!--医生介绍第二行-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/example_solution"
+                    android:textColor="@color/header_litteGray"
+                    android:textSize="10sp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/viewcolor"/>         <!--线-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginBottom="7dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:gravity="center_vertical"
+                        android:text="¥2起"
+                        android:textColor="@color/text_red"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_marginLeft="8dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="27074次个人单独咨询"
+                        android:textColor="@color/header_Gray"
+                        android:textSize="13sp"/>
+                </LinearLayout>
+                <!--咨询行-->
+
+            </LinearLayout>
+            <!--右边一侧-->
+
+        </LinearLayout>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/viewcolor"/>         <!--线-->
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

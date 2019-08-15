@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:padding="20.0dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/distance"
+                android:id="@+id/imageview_distance" />
+
+            <TextView
+                android:id="@+id/title_distance"
+                android:layout_width="fill_parent"
+                android:layout_height="25dp"
+                android:gravity="left"
+                android:layout_marginLeft="3dp"
+                android:text="1059米"
+                android:textColor="#000000"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="19dp"
+                android:layout_height="19dp"
+                android:src="@drawable/tel"
+                android:id="@+id/imageview_tel" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginLeft="4dp"
+                android:text="028-8688866"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:id="@+id/title_tel" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/address"
+                android:id="@+id/imageview_address" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="成都市双流区川大路三段118-120号"
+                android:textColor="#000000"
+                android:id="@+id/title_address" />
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

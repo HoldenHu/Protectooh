@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/holo_blue_light"
+    android:orientation="vertical">
+    <com.scu.holden.protectooth.widget.LayersLayout
+        android:id="@+id/layerslayout"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingLeft="0dip"
+        android:paddingRight="0dip" >
+
+        <!-- 下拉刷新 -->
+
+
+
+        <com.scu.holden.protectooth.widget.PullToRefreshListView
+            android:id="@+id/pulltorefreshlistview"
+            style="@style/ListViewStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:drawSelectorOnTop="false"
+            android:fadingEdgeLength="0dip"
+            android:fastScrollEnabled="true"
+            android:paddingLeft="0dip"
+            android:paddingRight="0dip"
+            android:paddingTop="0dip" >
+        </com.scu.holden.protectooth.widget.PullToRefreshListView>
+
+    </com.scu.holden.protectooth.widget.LayersLayout>
+
+</LinearLayout>
